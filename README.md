@@ -59,5 +59,20 @@ Basic list functions:
 On pairs
 * fst
 * snd
+* zip
 
+#### Types and typeclasses
+    ghci>:t
 
+* Int
+* Integer
+* Float
+* Double
+* Bool
+* Char
+
+Typeclasses:
+* Eq
+* Ord
+* Show
+* Read

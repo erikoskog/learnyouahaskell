@@ -10,5 +10,19 @@ boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
 
 length' xs = sum [1 | _ <- xs]
 
+remoweNonUppercase :: [Char] -> [Char]
 remoweNonUppercase st = [c | c <- st, c `elem` ['A'..'Z']]
+
+addThree :: Int -> Int -> Int -> Int
+addThree x y z = x + y + z
+
+
+factorial :: Integer -> Integer
+factorial n = product [1..n]
+
+circ' :: Float -> Float
+circ' r = 2*pi*r
+
+circ :: Double -> Double
+circ r = 2*pi*r
 
