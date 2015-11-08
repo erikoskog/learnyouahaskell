@@ -76,3 +76,14 @@ Typeclasses:
 * Ord
 * Show
 * Read
+* Enum
+* Bounded
+* Num
+* Integral
+* Floating
+
+#### Functions
+Pattern matching functions. From top to bottom until pattern conforms.
+Guards |, good for if-else trees
+
+
