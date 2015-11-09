@@ -86,4 +86,10 @@ Typeclasses:
 Pattern matching functions. From top to bottom until pattern conforms.
 Guards |, good for if-else trees
 
+    let <bindings> in <expression>
+
+    case <expression> of pattern -> result
+                         pattern -> result
+                         pattern -> result
+                         ...
 
